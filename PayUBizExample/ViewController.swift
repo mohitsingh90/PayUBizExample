@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         paymentParam.key = "gtKFFx"
         paymentParam.transactionID = "txnID20170220" // Transaction id should be unique
         paymentParam.amount = "100.0"
-        paymentParam.productInfo = "Nokia"
+        paymentParam.productInfo = "iPhone"
         paymentParam.surl = "https://payu.herokuapp.com/ios_success"
         paymentParam.furl = "https://payu.herokuapp.com/ios_failure"
         paymentParam.firstName = "Mohit"
