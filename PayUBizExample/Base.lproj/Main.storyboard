@@ -26,12 +26,28 @@
                                     <action selector="clickToPayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IkD-wO-TUn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Card number : 5123456789012346      CardExpDate: 05/2020 CVC: 123   Name :Any Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-sc-b3g">
+                                <rect key="frame" x="0.0" y="375" width="375" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payubiz non-seamless example for swift 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIa-Zg-zel">
+                                <rect key="frame" x="8" y="107" width="359" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rDQ-gS-Zsk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="2g8-gH-PMb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kIa-Zg-zel" secondAttribute="trailing" constant="8" id="FEq-QZ-Ju7"/>
+                            <constraint firstItem="kIa-Zg-zel" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="HSk-7e-44D"/>
                             <constraint firstItem="rDQ-gS-Zsk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lrs-a9-DI0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rDQ-gS-Zsk" secondAttribute="trailing" constant="50" id="SVe-wy-PmY"/>
+                            <constraint firstItem="kIa-Zg-zel" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="cyo-ff-b4c"/>
                             <constraint firstItem="rDQ-gS-Zsk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oWj-ga-h1L"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

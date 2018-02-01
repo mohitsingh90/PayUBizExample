@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBAction func clickToPayAction(_ sender: UIButton) {
         
         paymentParam.key = "gtKFFx"
-        paymentParam.transactionID = "txnID20170220"
+        paymentParam.transactionID = "txnID20170220" // Transaction id should be unique
         paymentParam.amount = "100.0"
         paymentParam.productInfo = "Nokia"
         paymentParam.surl = "https://google.com/"
